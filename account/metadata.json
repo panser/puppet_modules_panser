@@ -1,0 +1,26 @@
+{
+  "name": "torrancew-account",
+  "version": "0.0.4",
+  "source": "https://github.com/torrancew/puppet-account",
+  "author": "torrancew",
+  "license": "Apache License, Version 2.0",
+  "summary": "A module to manage most typical aspects of UNIX user accounts",
+  "description": "A module to manage User accounts (as well as groups, home dirs and SSH keys)",
+  "project_page": "https://github.com/torrancew/puppet-account",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG": "7b0650bc8fdd47bbbf840ec969203d0b",
+    "LICENSE": "d6287719356a0aec3e10a39d52040908",
+    "Modulefile": "2f5165967d72e5a30c781fb8f90decd7",
+    "README.mkd": "c17e231606779b82af93d7bcccfcd332",
+    "Rakefile": "baf47607779e5dce1c5285d77b0afd6d",
+    "manifests/init.pp": "c65d00735e95a9b443972e9468d6299e",
+    "spec/defines/account_spec.rb": "5a6b2ef7af71b5acda7cfedacd96447f",
+    "spec/spec_helper.rb": "1ada069d7869a2d9223d2e6a4bf3b2a7"
+  }
+}
