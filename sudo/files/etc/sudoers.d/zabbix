@@ -1,0 +1,4 @@
+# Added for Zabbix custom monitoring needs
+Defaults:zabbix !requiretty
+Cmnd_Alias ZABBIX = ALL
+zabbix ALL = NOPASSWD: ZABBIX
