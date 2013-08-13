@@ -1,0 +1,4 @@
+# Added for Bacula backup system
+Defaults:bacula !requiretty
+Cmnd_Alias BACULA = ALL
+bacula ALL = NOPASSWD: BACULA

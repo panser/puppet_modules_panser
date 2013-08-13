@@ -45,7 +45,7 @@ define sudo::conf(
   $sudo_config_dir = $sudo::params::config_dir
 ) {
 
-  include sudo
+	include sudo
 
   Class['sudo'] -> Sudo::Conf[$name]
 
